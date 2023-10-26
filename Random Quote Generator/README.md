@@ -1,4 +1,8 @@
-# Welcome to Git for Geeks 2.0!
+# Random Quote Generator
+
+<div>
+<img src="resources/randomquotes.png" alt="randomquote">
+</div>
 
 Git-For-Geeks 2.0 is an open source contribution event conducted by Geeks-for-Geeks Chapter of **Shri Ramdeobaba College of Engineering and Management, Nagpur**.
 
