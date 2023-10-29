@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: url(/resources/polygon-scatter-haikei.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2000ms ease;
+}
+.hero
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:55px;
+}
+.hero .card
+{
+    height: 370px;
+    width: 34%;
+
+    background-color: antiquewhite;
+    color: #297EA6;
+
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 10px;
+}
+
+.card h1
+{
+    text-align: center;
+    font-size: 2.3rem;
+    
+}
+.card p
+{
+    text-align: center;
+    color:#001829;    
+    font-size: 1.3rem;
+} 
+.card h3
+{
+    text-align: right;
+    font-size: 0.9rem;
+
+}
+.hero button
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 4px solid white;
+    border-radius: 50%;
+    background:white;
+
+    width: 70px;
+    height: 70px;
+}
+.hero button i
+{
+    font-style: normal;
+}
